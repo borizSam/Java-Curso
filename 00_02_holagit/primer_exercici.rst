@@ -1,3 +1,4 @@
+
 ###########################
 Exercici 0: Les meves coses
 ###########################
@@ -7,32 +8,29 @@ Una breu presentació de mi mateix incloent per a què estic fent aquest curs.
 Les meves dades
 ===============
 
-El meu nom és «Boris Ivan Huarachi Perez»
+El meu nom és Boris Ivan Huarachi Perez
 
-El meu usuari a GitHub és «BorizSam»
+El meu usuari a GitHub és «…»
 
-El nom del meu repositori a GitHub és  «introprg»
+El nom del meu repositori a GitHub és  «…»
 
-Els meus coneixements previsx
+Els meus coneixements previs
 ============================
 
-La meva experiència amb la programació és «programacion basica en python».
+La meva experiència amb la programació és «…».
 
 Nota: com a mínim hauràs programat la rentadora, o fregit un ou, no?
 
 Per què estic aquí?
-Para aprender a programar.
 ===================
 
-Estic fent aquest cicle perquè
-Por que hice asix y me llamo la programacion.
+Estic fent aquest cicle perquè «…»
 
 Per a què estic aquí?
-Para aprender a programar.
 =====================
 
 Un cop hagi aprovat aquesta assignatura espero ser capaç de «…».
-Espero poder programar un ajedrez desde cero en java. 
+
 Altres coses
 ============
 
