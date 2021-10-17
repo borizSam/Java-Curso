@@ -1,0 +1,24 @@
+Pregunta 1. Què fa el programa?
+Quin és el problema que pretén resoldre el programa, independentment de amb quin llenguatge estigui escrit?
+El problema que quiere resolver el programa es el valor del area.
+Pregunta 2. Elements comuns
+Fixa’t que els diferents llenguatges tenen maneres diferents d’expressar les passes a realitzar per portar a terme la resolució del problema.
+Amb tot, si mirem amb atenció, trobem que hi ha elements que es repeteixen a totes (o quasi totes) les versions.
+Identifica’ls i descriu-los.
+Los elementos que se repiten son el radi y el area float.
+Pregunta 3. Entrada/sortida
+El programa, en les seves diferents versions, ha de demanar un valor als seus usuaris i escriure un resultat.
+Indica, per cada llenguatge, de quina manera obté la dada i de quina manera mostra el resultat
+Per exemple:
+En pseudocodi, l’entrada l’obté amb llegeix radi i el resultat el mostra amb escriu "L'àrea és ", àrea"
+Versió C, la entrada es el radi y el area y la operacion es es area y como resultado nos enseña "L'àrea és %f\n", area.
+Versió Python, la entrada es la linia y la operacion es en area y como resultado nos enseña f"L'àrea és {area}".
+Versió Java,la entrada es el radi y la operacion es el area y como resultado nos enseña ("L'àrea és " + area).
+Versió Kotlin,la entrada es linia y la operacion es el area y como resultado nos enseña ("L'àrea és $area").
+Pregunta 4. Variables
+Hi ha un tipus d’element que apareix a totes les versions, que es coneix com a variable. Les variables serveixen als programes per poder referir-se als diferents valors que han de manegar. Un exemple d’aquestes variables és area.
+Hi trobes més exemples? Quins?
+La otra variable es el radi.
+Pregunta 5. Preferència
+Potser és molt d’hora, però, així a primera vista, quin dels llenguatges que et presento, veus més interessant? Perquè?
+A mi el lenguaje que me gusta mas es python por que la sintaxis es mas clara pero yo quiero aprender el lenguaje Java por que me parece un lenguaje que se utiliza mucho.  
