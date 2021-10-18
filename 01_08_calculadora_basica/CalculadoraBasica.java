@@ -20,13 +20,12 @@ public class CalculadoraBasica {
         // operacions
         int suma = primerOperand + segonOperand;
         int resta = primerOperand - segonOperand;
-        int multiplicacio = primerOperando * segonOperand;
-        int divisio = primerOperando / segonOperand;
-
+        int multiplicacio = primerOperand * segonOperand;
+	int divisio = primerOperand / segonOperand;
         // mostra resultats
         System.out.println(primerOperand + " + " + segonOperand + " = " + suma);
         System.out.println(primerOperand + " - " + segonOperand + " = " + resta);
         System.out.println(primerOperand + " * " + segonOperand + " = " + multiplicacio);
-        System.out.println(primerOPerand + " / " + segonOperand + " = " + divisio);
-    }
+  	System.out.println(primerOperand + " / " + segonOperand + " / " + divisio);
+  }
 }

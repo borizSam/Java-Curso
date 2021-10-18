@@ -15,7 +15,7 @@ companysClasse <= 35
 8-.tens tants companys a classe com anys
 companysClasse > 23
 9-.el Renat té quatre potes
-Renat == 4
+renatPotas == 4
 10-.estem a més de 28 graus
 graus > 28
 11-.Si naciste entre los 90s eres de la generacion de los 90s
