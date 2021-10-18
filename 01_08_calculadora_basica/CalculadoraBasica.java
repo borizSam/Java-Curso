@@ -26,6 +26,6 @@ public class CalculadoraBasica {
         System.out.println(primerOperand + " + " + segonOperand + " = " + suma);
         System.out.println(primerOperand + " - " + segonOperand + " = " + resta);
         System.out.println(primerOperand + " * " + segonOperand + " = " + multiplicacio);
-  	System.out.println(primerOperand + " / " + segonOperand + " / " + divisio);
+  	System.out.println(primerOperand + " / " + segonOperand + " = " + divisio);
   }
 }
