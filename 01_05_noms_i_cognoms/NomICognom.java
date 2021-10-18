@@ -9,13 +9,11 @@ public class NomICognom {
     public static void main(String[] args) {
         // obté el nom
         System.out.println("Com et dius?");
-        String nom = "Renat";
-	System.out.println(nom);
+        String nom = Entrada.readLine();
 
         // obté el cognom
         System.out.println("I quin és el teu primer cognom?");
-        String cognom = "Taner";
-	System.out.println(cognom);
+        String cognom = Entrada.readLine();
 
         // Mostra resultat
         System.out.println("Ei " + nom + ", tinc una amiga que també és " +  cognom);
