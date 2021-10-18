@@ -1,0 +1,25 @@
+1-.la teva edat és superior als 18 anys
+edad>18
+2-.tens menys de 5 germans
+germans<5
+3-.la suma de 2 més 5 és igual a 7
+(2+5) == 7
+4-.la suma de 2 més 5 és diferent de 7
+(2+5) != 7
+5-.l’any que ve seràs major d’edat
+anyQueVe == 18
+6-.l’any passat encara no eres major d’edat
+anyPassat < 18
+7-.tens com a molt 35 companys a classe
+companysClasse <= 35
+8-.tens tants companys a classe com anys
+companysClasse > 23
+9-.el Renat té quatre potes
+Renat == 4
+10-.estem a més de 28 graus
+graus > 28
+11-.Si naciste entre los 90s eres de la generacion de los 90s
+generacion >= 90
+12-.Si tienes un sueldo entre 1200 y 2000e.
+sueldo >= 1200 && sueldo <=2000.
+
