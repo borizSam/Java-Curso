@@ -7,10 +7,10 @@
  tr:hover { background-color: #f5f5f5; }
  th, td { border-bottom: 1px solid #ddd; font-weight: normal; padding: 5px 10px; }
  th { background-color: #1d96b2; color: white; }
- td.fail, td.pass, td.na, td.np { text-align: center; font-weight: bold; }
+ td.fail, td.pass, td.na, td.due, td.np { text-align: center; font-weight: bold; }
  td.fail, td.np { color: red; }
  td.pass { color: green; }
- td.na { color: darkgrey; }
+ td.na, td.due { color: darkgrey; }
  td.attributes { text-align: center; white-space: nowrap; font-size: .6em;}
  span.activeattrib { color:blue; font-weight:bolder; text-shadow: 1px 1px 2px #000000; cursor: help;}
  span.warningattrib { color:red; font-weight:bolder; text-shadow: 1px 1px 2px #000000; cursor: help;}
@@ -34,12 +34,12 @@
                     <span class="innactiveattrib"> ☼ </span>
                     <span class="innactiveattrib"> ☆ </span>
                     <span class="innactiveattrib"> ✓ </span>
-                                                                        <span class="warningattrib" title="exercici lliurable fins el dia 17/10/2021"> △ </span>
+                                                                        <span class="activeattrib" title="exercici tancat"> ∅ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                             class="due"                                                                                 >
+                    endarrerit</td>
+                <td>Lliurat fora de termini</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_00_02_holagit.html">00_02_holagit</a></td>
@@ -47,10 +47,10 @@
                     <span class="innactiveattrib"> ☼ </span>
                     <span class="innactiveattrib"> ☆ </span>
                     <span class="innactiveattrib"> ✓ </span>
-                                                                        <span class="warningattrib" title="exercici lliurable fins el dia 17/10/2021"> △ </span>
+                                                                        <span class="activeattrib" title="exercici tancat"> ∅ </span>
                                                             </td>
                 <td
-                                                                                                     class="pass"                     >
+                                                                                                                         class="pass"                     >
                     lliurat</td>
                 <td>Presentat</td>
             </tr>
@@ -60,10 +60,10 @@
                     <span class="innactiveattrib"> ☼ </span>
                     <span class="innactiveattrib"> ☆ </span>
                     <span class="innactiveattrib"> ✓ </span>
-                                                                        <span class="warningattrib" title="exercici lliurable fins el dia 17/10/2021"> △ </span>
+                                                                        <span class="activeattrib" title="exercici tancat"> ∅ </span>
                                                             </td>
                 <td
-                                                                                                     class="pass"                     >
+                                                                                                                         class="pass"                     >
                     lliurat</td>
                 <td>Presentat</td>
             </tr>
@@ -73,10 +73,10 @@
                     <span class="innactiveattrib"> ☼ </span>
                     <span class="innactiveattrib"> ☆ </span>
                     <span class="activeattrib" title="exercici amb autoavaluació"> ✓ </span>
-                                                                        <span class="warningattrib" title="exercici lliurable fins el dia 17/10/2021"> △ </span>
+                                                                        <span class="activeattrib" title="exercici tancat"> ∅ </span>
                                                             </td>
                 <td
-                                                                                 class="pass"                                         >
+                                                                                                     class="pass"                                         >
                     passa</td>
                 <td>Passa totes les proves</td>
             </tr>
@@ -86,10 +86,10 @@
                     <span class="innactiveattrib"> ☼ </span>
                     <span class="innactiveattrib"> ☆ </span>
                     <span class="innactiveattrib"> ✓ </span>
-                                                                        <span class="warningattrib" title="exercici lliurable fins el dia 17/10/2021"> △ </span>
+                                                                        <span class="activeattrib" title="exercici tancat"> ∅ </span>
                                                             </td>
                 <td
-                                                                                                     class="pass"                     >
+                                                                                                                         class="pass"                     >
                     lliurat</td>
                 <td>Presentat</td>
             </tr>
@@ -102,9 +102,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                                         class="pass"                     >
+                    lliurat</td>
+                <td>Presentat</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_02_duplica.html">01_02_duplica</a></td>
@@ -115,9 +115,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                     class="pass"                                         >
+                    passa</td>
+                <td>Passa totes les proves</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_03_inicialitzacio_en_linia.html">01_03_inicialitzacio_en_linia</a></td>
@@ -128,9 +128,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                         class="fail"                                                                                                     >
+                    falla</td>
+                <td>No passa les proves de prgtest</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_04_reduccio_de_prints.html">01_04_reduccio_de_prints</a></td>
@@ -141,9 +141,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                         class="fail"                                                                                                     >
+                    falla</td>
+                <td>No passa les proves de prgtest</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_05_noms_i_cognoms.html">01_05_noms_i_cognoms</a></td>
@@ -154,9 +154,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                         class="fail"                                                                                                     >
+                    falla</td>
+                <td>No passa les proves de prgtest</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_06_nom_variables.html">01_06_nom_variables</a></td>
@@ -167,9 +167,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                                         class="pass"                     >
+                    lliurat</td>
+                <td>Presentat</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_07_valors_del_tipus_adequat.html">01_07_valors_del_tipus_adequat</a></td>
@@ -180,9 +180,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                                         class="pass"                     >
+                    lliurat</td>
+                <td>Presentat</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_08_calculadora_basica.html">01_08_calculadora_basica</a></td>
@@ -193,9 +193,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                         class="fail"                                                                                                     >
+                    falla</td>
+                <td>No passa les proves de prgtest</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_09_operadors_relacionals.html">01_09_operadors_relacionals</a></td>
@@ -206,9 +206,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                                         class="pass"                     >
+                    lliurat</td>
+                <td>Presentat</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_10_expressions_amb_operadors_logics.html">01_10_expressions_amb_operadors_logics</a></td>
@@ -219,9 +219,9 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
-                    NP</td>
-                <td>No presentat</td>
+                                                                                                                         class="pass"                     >
+                    lliurat</td>
+                <td>Presentat</td>
             </tr>
                         <tr>
                 <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_11_precedencia_operadors.html">01_11_precedencia_operadors</a></td>
@@ -232,7 +232,7 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -245,7 +245,7 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -258,7 +258,7 @@
                                                                         <span class="warningattrib" title="exercici lliurable fins el dia 24/10/2021"> △ </span>
                                                             </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -271,7 +271,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -284,7 +284,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -297,7 +297,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -310,7 +310,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -323,7 +323,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -336,7 +336,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -349,7 +349,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -362,7 +362,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -375,7 +375,20 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
+                    NP</td>
+                <td>No presentat</td>
+            </tr>
+                        <tr>
+                <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_23_pagaments.html">01_23_pagaments</a></td>
+                <td class="attributes">
+                    <span class="activeattrib" title="exercici optatiu"> ☼ </span>
+                    <span class="innactiveattrib"> ☆ </span>
+                    <span class="activeattrib" title="exercici amb autoavaluació"> ✓ </span>
+                                            <span class="innactiveattrib"> ∞ </span>
+                                    </td>
+                <td
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -388,7 +401,7 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
@@ -401,12 +414,25 @@
                                             <span class="innactiveattrib"> ∞ </span>
                                     </td>
                 <td
-                     class="np"                                                                                                     >
+                     class="np"                                                                                                                         >
+                    NP</td>
+                <td>No presentat</td>
+            </tr>
+                        <tr>
+                <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://moiatjda.github.io/jda.dev.m03/exercici_01_26_ascensor.html">01_26_ascensor</a></td>
+                <td class="attributes">
+                    <span class="innactiveattrib"> ☼ </span>
+                    <span class="activeattrib" title="exercici amb dificultat addicional"> ☆ </span>
+                    <span class="activeattrib" title="exercici amb autoavaluació"> ✓ </span>
+                                            <span class="innactiveattrib"> ∞ </span>
+                                    </td>
+                <td
+                     class="np"                                                                                                                         >
                     NP</td>
                 <td>No presentat</td>
             </tr>
                     </table>
         <p>En cas de dubte, posa't en contacte amb el teu docent.</p>
-        <p>Data darrer lliurament avaluat: 2021-10-11 17:21:21</p>
+        <p>Data darrer lliurament avaluat: 2021-10-18 05:40:10</p>
     </body>
 </html>
