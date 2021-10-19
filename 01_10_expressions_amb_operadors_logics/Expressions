@@ -1,25 +1,26 @@
 1-.la Clara és més jove que tu
 
-int edadMeva = 23
 clara < edadMeva
 
 2-.la Clara i el Marc són més joves que tu
 
-clara < edadMeva && marc < edadMeva
+clara && marc < edadMeva
 
 3-.la Clara és més jove que tu i tu ets més jove que el Marc
 
-int edadMarc = 30
 clara < edadMeva && edadMeva < edadMarc
 
 4-.la Clara no és més jove que el Marc
-clara < edadMarc
+!(Clara < edadMarc)
+
 5-.no és cert que el Marc sigui més jove que la Clara
-booleam edadMarcMesJove = edadMarc < edadClara
+!(edadMarc < edadClara)
 
 6-.Ni el Marc és més jove que la Clara ni tu ets més jove que el Marc
-booleam marcNiYoMesJoveQueClara = edadMeva < edadMarc
-!marcNiYoMesJoveQueClara
+!(marc < edadclara) && !(edadMeva < edadMarc)
 
 7-.Tu ets més gran que la Clara i el Marc junts o bé la Clara i el Marc tenen la mateixa edat
-edadMeva > edadClaraMarc || edadClara == edadMarc;
+edadMeva > (edadClara && edadMarc) || edadClara == edadMarc;
+8-. Yo soy mayor que marc y clara.
+edadMeva > (edadmarc && edadClara)
+9-.
