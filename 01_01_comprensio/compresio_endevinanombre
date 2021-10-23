@@ -9,4 +9,4 @@ Linea 21 numero = numeroPensat * 3;      10 * 3 = 30
 Linea 26 numero = numero + 6;            30 + 6 = 36 
 Linea 31 numero = numero / 3;            36 / 3 = 12
 Linea 36 numero = numero - numeroPensat; 12 - 10 = 2
-Linea 41 System.out.println("A que el resultat és 2?")
+Linea 41 System.out.println("A que el resultat és 2?");
