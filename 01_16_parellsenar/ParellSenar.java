@@ -6,11 +6,11 @@
 public class ParellSenar {
     public static void main(String[] args) {
         int numero = Integer.parseInt(args[0]);
-       	int nume = numero % 2;
-        if (nume == 0 ){
-            System.out.println("El número " + numero + " és parell");
+       	int operacion = numero % 2;
+        if (operacion == 0 ){
+            System.out.println("El número " + operacion + " és parell");
         } else {
-            System.out.println("El número " + numero + " és senar");
+            System.out.println("El número " + operacion + " és senar");
         }
     }
 }
