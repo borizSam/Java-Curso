@@ -20,7 +20,8 @@ clara < edadMeva && edadMeva < edadMarc
 !(marc < edadclara) && !(edadMeva < edadMarc)
 
 7-.Tu ets més gran que la Clara i el Marc junts o bé la Clara i el Marc tenen la mateixa edat
-edadMeva > (edadClara && edadMarc) || edadClara == edadMarc;
+edadMeva > (edadClara && edadMarc) || edadClara == edadMarc
 8-. Yo soy mayor que marc y clara.
 edadMeva > (edadmarc && edadClara)
-9-.
+9-. No es cierto que marc y clara es mayor que yo
+!(edadMarc && edadClara) > edadMeva
