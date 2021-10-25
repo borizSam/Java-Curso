@@ -7,8 +7,10 @@ public class ParellSenar {
     public static void main(String[] args) {
         int numero = Integer.parseInt(args[0]);
        	int operacion = numero % 2;
+
         if (operacion == 0 ){
             System.out.println("El número " + operacion + " és parell");
+
         } else {
             System.out.println("El número " + operacion + " és senar");
         }
