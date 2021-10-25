@@ -9,8 +9,10 @@ public class DosEnOrdre {
         int segon = Integer.parseInt(Entrada.readLine());
         if (segon > primer){
             System.out.println(primer + " i " + segon);
+
 	} else if (primer == segon){ /*cuando las dos variables son iguales*/
 	    System.out.println(primer + " i " + segon);
+
 	}else{
 	    System.out.println(segon+ " i " + primer);
 	}
