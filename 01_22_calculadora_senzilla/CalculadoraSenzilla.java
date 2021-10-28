@@ -10,6 +10,7 @@ public class CalculadoraSenzilla {
 		double resta = operand1 - operand2;
 		double multiplicacion = operand1 * operand2;
 		double division = operand1 / operand2;
+
 		if (operador == '+'){
 			System.out.println(operand1+" + "+operand2+" = "+suma);
 		}else if (operador == '-'){
