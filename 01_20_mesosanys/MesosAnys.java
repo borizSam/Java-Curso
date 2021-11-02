@@ -9,14 +9,13 @@ public class MesosAnys {
 		int anterior = mes - 1;
 		int posterior = mes + 1;
 		int mesos= mes - 11;
-		if ( mes >=2 && mes <=11){  /*rango de meses correctos*/
+		if ( mes <= 11){  /*rango de meses correctos*/
 			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+posterior+"/"+any);
 		}else if (mes==12){
-			int a=mes-11;
-			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+a+"/"+any);
+			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+mesos+"/"+any);
 		}else if (mes==1){
-			int b = mes+11;
-			System.out.println("Anterior "+b+"/"+any+" i posterior "+posterior+"/"+any);
+			posterior= mes+11;
+			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+posterior+"/"+any);
 		}
 	}
 }
