@@ -17,7 +17,7 @@ public class MesosAnys {
 		}else if (mes==12){
 			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+mesos+"/"+anys);
 		}else if (mes==1){
-			System.out.println("Anterior "+mes+"/"+anyss+" i posterior "+posterior+"/"+any);
+			System.out.println("Anterior "+mese+"/"+anyss+" i posterior "+posterior+"/"+any);
 		}
 	}
 }
