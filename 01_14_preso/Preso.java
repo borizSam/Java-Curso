@@ -9,7 +9,7 @@ public class Preso {
         System.out.println("Quants anys teniu?");
         int edat = Integer.parseInt(Entrada.readLine());
         if (edat >= 0 && edat <=18 ) {
-            System.out.println("Vos ja podeu anar a la presó! ");
+            System.out.println("Vos ja podeu anar a la presó!");
         } else {
             System.out.println("Aneu amb compte "+ nom);
 	}
