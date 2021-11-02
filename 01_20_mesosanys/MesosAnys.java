@@ -5,12 +5,13 @@ public class MesosAnys {
 		System.out.println("Mes?");
 		int mes =Integer.parseInt(Entrada.readLine()); /*coger el mes */
 		System.out.println("Any?");
-		String any = Entrada.readLine(); /*coger en año */
+		int any = Entrada.readLine(); /*coger en año */
 		int anterior = mes - 1;
 		int posterior = mes + 1;
 		int mesos= mes - 11;
+		int anypos = any +1;
 		if ( mes >=2 && mes <=11){  /*rango de meses correctos*/
-			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+posterior+"/"+any);
+			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+posterior+"/"+anypos);
 		}else if (mes==12){
 			int a=mes-11;
 			System.out.println("Anterior "+anterior+"/"+any+" i posterior "+a+"/"+any);
