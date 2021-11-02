@@ -1,3 +1,5 @@
+/*Programa que nos enseña el mes anterior y el mes siguiente */
+
 public class MesosAnys {
 	public static void main(String[] args) {
 		System.out.println("Mes?");
