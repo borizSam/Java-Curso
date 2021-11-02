@@ -17,7 +17,7 @@ public class Ascensor {
 		}else if (boto.equals("baixar dos")&& pis.equals("segon pis")){
 			System.out.println("planta baixa");
 		}else{
-			System.out.println("Error");
+			System.out.println("error");
 		}
 	}
 }
