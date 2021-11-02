@@ -5,7 +5,7 @@ public class MesosAnys {
 		System.out.println("Mes?");
 		int mes =Integer.parseInt(Entrada.readLine()); /*coger el mes */
 		System.out.println("Any?");
-		int any = Entrada.readLine(); /*coger en año */
+		int any = Integer.parseInt(Entrada.readLine()); /*coger en año */
 		int anterior = mes - 1;
 		int posterior = mes + 1;
 		int mesos= mes - 11;
