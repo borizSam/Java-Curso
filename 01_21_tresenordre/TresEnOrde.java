@@ -1,5 +1,5 @@
-/*Ordenar 3 numeros de menor a mayor introducidos por el usuario */
-public class tresenorde{
+/*Programa que ordena tres numeros introducidos por el usuario de menor a mayor */
+public class TresEnOrde{
 	public static void main(String[]args){
 		System.out.println("Primer?");
 		int a = Integer.parseInt(Entrada.readLine());
