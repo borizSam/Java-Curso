@@ -1,3 +1,4 @@
+/*Pedimos tres numeros al usuario y lo sumamos*/
 public class SumaPositius {
 	public static void main (String[] args){
         // creem la variable on guardarem el resultat de sumar
