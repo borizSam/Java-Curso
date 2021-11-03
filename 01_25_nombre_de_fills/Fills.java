@@ -20,7 +20,7 @@ public class Fills {
 		}else if (fills == 1){
 		System.out.println("Compte de no mimar-lo massa!");
 		}else if (fills >= 5){
-		System.out.println("Tu si fas país!");
+		System.out.println("Tu sí fas país!");
 		}
 	}
 }
