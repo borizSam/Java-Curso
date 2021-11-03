@@ -1,3 +1,4 @@
+/*Considerem un ascensor d’un edifici amb planta baixa i dos pisos (primer pis i segon pis) que tingui els següents botons: ‘pujar un”, ‘pujar dos”, ‘baixar un” i ‘baixar dos”. */
 public class Ascensor {
 	public static void main (String[]args){
 	System.out.println("pis?");
