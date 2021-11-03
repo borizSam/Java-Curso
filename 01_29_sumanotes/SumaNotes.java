@@ -10,6 +10,6 @@ public class SumaNotes {
 			nota=Integer.parseInt(Entrada.readLine());
 
 		}
-		System.out.println("La suma de les notes valides es "+suma);
+		System.out.println("La suma de les notes valides és "+suma);
 	}
 }
