@@ -15,13 +15,13 @@ public class CalculadoraSenzilla {
 		if (operador == '+'){
 			System.out.println(operand1+" + "+operand2+" = "+suma);
 		}else if (operador == '-'){
-			System.out.println(operand1+" + "+operand2+" = "+resta);
+			System.out.println(operand1+" - "+operand2+" = "+resta);
 		}else if (operador == '*'){
-			System.out.println(operand1+" + "+operand2+" = "+multiplicacion);
+			System.out.println(operand1+" * "+operand2+" = "+multiplicacion);
 		}else if (operador == '/' && operand2 == 0){
 			System.out.println("No es pot dividir entre 0");
 		}else if (operador == '/'){
-                        System.out.println(operand1+" + "+operand2+" = "+division);
+                        System.out.println(operand1+" / "+operand2+" = "+division);
 		}else{
 			System.out.println("L'operador "+operador+" no està disponible");
 		}
