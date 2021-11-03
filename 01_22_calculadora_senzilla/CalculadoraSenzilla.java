@@ -1,3 +1,4 @@
+/*Calculadora simple el pedimos al usuario dos numeros y un operador */
 public class CalculadoraSenzilla {
 	public static void main(String[]args){
 		System.out.println("Operand 1?");
