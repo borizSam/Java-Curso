@@ -1,3 +1,4 @@
+/*El programa pedira notas >=0 y <=100  y las sumara y nos enseñara el resultado final, cuando el usuario introduzca un numero negativo o mayor a 100 el programa acabara  */
 public class SumaNotes {
 
 	public static void main (String[]args){
