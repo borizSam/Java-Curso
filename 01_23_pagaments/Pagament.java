@@ -7,7 +7,6 @@ public class Pagament {
 	int paga=Integer.parseInt(Entrada.readLine());
 	int suma= preu - paga; /*Calculamos el resultado*/
 	int resultado= Math.abs(suma); /*Convertimos el resultado en positivo*/
-	System.out.println(suma);
 	if (suma>1){
 		System.out.println("Falten "+resultado+"€");
 	}else if (suma==0){
