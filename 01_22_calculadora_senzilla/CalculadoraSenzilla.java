@@ -1,11 +1,11 @@
 /*Calculadora simple el pedimos al usuario dos numeros y un operador */
 public class CalculadoraSenzilla {
 	public static void main(String[]args){
-		System.out.println("Operand 1?");
+		System.out.println("Operand1?");
 		double operand1 = Double.parseDouble(Entrada.readLine());
 		System.out.println("Operador?");
 		char operador = Entrada.readLine().charAt(0);
-		System.out.println("Operand 2?");
+		System.out.println("Operand2?");
 		double operand2 = Double.parseDouble(Entrada.readLine());
 		double suma = operand1 + operand2;
 		double resta = operand1 - operand2;
