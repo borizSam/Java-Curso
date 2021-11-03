@@ -4,14 +4,13 @@ public class ComptaParells {
 	public static void main (String[]args){
 	int valor =0;
 	int comtador=0;
-		while (valor > 0){
+		while (valor >= 0){
 			System.out.println("Introdueix un valor");
                         valor =Integer.parseInt(Entrada.readLine());
 			if (valor % 2==0){
 				comtador=comtador+1;
 			}
 		}
-
 		System.out.println("Valors parells introduïts: "+comtador);
 	}
 }
