@@ -7,7 +7,7 @@ public class TrobaMaxim {
 		while(numero>=0){
  		System.out.println("Introdueix un valor");
 		numero=Integer.parseInt(Entrada.readLine());
-			if(numero>=0){
+			if(numero>0){
 				maxim=numero+0;
 			}
 		}
