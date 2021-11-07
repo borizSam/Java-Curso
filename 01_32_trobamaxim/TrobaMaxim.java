@@ -5,13 +5,15 @@ public class TrobaMaxim {
 	int valor=Integer.parseInt(Entrada.readLine());
 	int maxim=0;
 	maxim=valor;
-	while (valor >=0){
+	while (valor >0){
 		System.out.println("Introdueix un valor");
 		valor=Integer.parseInt(Entrada.readLine());
 		if (valor>maxim){
 			maxim=valor;
+			System.out.println("El màxim és "+maxim);
+		}else if (valor==0){
+			System.out.println("El màxim és "+"0");
 		}
 	}
-	System.out.println("El màxim és "+maxim);
 	}
 }
