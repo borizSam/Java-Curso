@@ -8,7 +8,7 @@ public class TresEnOrdre{
 		System.out.println("Tercer?");
 		int c = Integer.parseInt(Entrada.readLine());
 
-		if (c>b && b>a){
+		if (a>b && a>c){
 			System.out.println(a+", "+b+" i "+c);
 		}else if (a>b && b>c){
 			System.out.println(c+", "+a+" i "+b);
