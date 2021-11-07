@@ -10,10 +10,11 @@ public class TrobaMaxim {
 		valor=Integer.parseInt(Entrada.readLine());
 		if (valor>maxim){
 			maxim=valor;
-			System.out.println("El màxim és "+maxim);
-		}else if (valor==0){
-			System.out.println("El màxim és "+"0");
 		}
+	if (valor<=0){
+        System.out.println("El màxim és "+"0");
+	}
+	System.out.println("El màxim és "+maxim);
 	}
 	}
 }
