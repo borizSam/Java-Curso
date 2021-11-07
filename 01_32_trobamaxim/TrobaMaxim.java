@@ -4,7 +4,8 @@ public class TrobaMaxim {
 	System.out.println("Introdueix un valor");
 	int valor=Integer.parseInt(Entrada.readLine());
 	int maxim=0;
-	while (valor >=1){
+	maxim=valor;
+	while (valor >=0){
 		System.out.println("Introdueix un valor");
 		valor=Integer.parseInt(Entrada.readLine());
 		if (valor>maxim){
