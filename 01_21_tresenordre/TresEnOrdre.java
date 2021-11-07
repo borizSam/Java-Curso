@@ -7,19 +7,25 @@ public class TresEnOrdre{
 		int b = Integer.parseInt(Entrada.readLine());
 		System.out.println("Tercer?");
 		int c = Integer.parseInt(Entrada.readLine());
+		int mayor;
+		int menor;
+		int medio;
+		if (a > b && a > c) {
+            		mayor = a;
+       		} else if (b > a && b > c) {
+            		mayor = b;
+        	} else {
+            		mayor = c;
+        	}
 
-		if (a>b && a>c){
-			System.out.println(a+", "+b+" i "+c);
-		}else if (a>b && b>c){
-			System.out.println(c+", "+a+" i "+b);
-		}else if (a>b && c>a){
-			System.out.println(b+", "+a+" i "+c);
-		}else if (a>c && c>b){
-			System.out.println(b+", "+c+" i "+a);
-		}else if (b>c && b>a && a>c){
-			System.out.println(c+", "+a+" i "+b);
-		}else{
-			System.out.println(a+", "+c+" i "+b);
-		}
-	}
+        	if (a < b && a < c) {
+            		menor = a;
+        	} else if (b < a && b < c) {
+        		menor = b;
+        	} else {
+ 	           	menor = c;
+        	}
+       	medio = (a + b + c) - (mayor + menor);
+        System.out.println(menor+", "+medio+ " i "+ mayor);
+    }
 }
