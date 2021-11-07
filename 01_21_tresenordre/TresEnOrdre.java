@@ -25,7 +25,7 @@ public class TresEnOrdre{
         	} else {
  	           	menor = c;
         	}
-       	medio = (a + b + c) - (mayor + menor);
+       	medio = (a + b + c)-(mayor + menor);
         System.out.println(menor+", "+medio+ " i "+ mayor);
     }
 }
