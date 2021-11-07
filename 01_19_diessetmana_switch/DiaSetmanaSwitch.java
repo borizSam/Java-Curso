@@ -23,7 +23,6 @@ public class DiaSetmanaSwitch {
 		default: diaString = "Error";
 			break;
 	}
-	System.out.println(diaString);
 	}
 }
 
