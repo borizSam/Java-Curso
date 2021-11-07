@@ -6,15 +6,15 @@ public class NotaMitja {
         int nota=Integer.parseInt(Entrada.readLine());
         int suma=0;
         int total=0;
-                while (nota >=0 && nota <=100){
+        if (nota<0){
+       		System.out.println("Cap nota vàlida introduïda");
+       	}
+                while (nota >0 && nota <=100){
                         suma = suma+nota;
                         total=total+1;
                         System.out.println("Introdueix una nota");
                         nota=Integer.parseInt(Entrada.readLine());
                 }
-		if (nota<0){
-               		System.out.println("Cap nota vàlida introduïda");
-                }
-        	System.out.println("La mitja de les notes vàlides és "+suma/total);
+       		System.out.println("La mitja de les notes vàlides és "+suma/total);
         }
 }
