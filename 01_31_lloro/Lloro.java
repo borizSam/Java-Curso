@@ -2,7 +2,7 @@
 public class Lloro {
 	public static void main (String[]args){
 	String space="";
-		while (space.isBlank()==true){
+		while (space.isBlank()==true && space.isEmpty()==true){
 			System.out.println("El lloro espera paraula:");
 			space =Entrada.readLine();
 			System.out.println("El lloro repeteix: "+space);
