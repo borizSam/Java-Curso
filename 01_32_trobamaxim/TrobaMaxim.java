@@ -3,12 +3,13 @@
 public class TrobaMaxim {
 	public static void main (String[]args){
 	int maxim=0;
+	int valor=0;
 	int numero=0;
 		while(numero>=0){
  		System.out.println("Introdueix un valor");
-		numero=Integer.parseInt(Entrada.readLine());
-			if(numero>0){
-				maxim=numero+0;
+		valor=Integer.parseInt(Entrada.readLine());
+			if(
+){
 			}
 		}
 		System.out.println("El màxim és "+maxim);
