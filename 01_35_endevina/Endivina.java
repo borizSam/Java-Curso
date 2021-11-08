@@ -12,7 +12,7 @@ public class Endivina{
 				System.out.println("Com a mínim 1");
 			}else if (num > 42 ){
 				System.out.println("És més petit que "+num);
-			}else if (num > 1 ){
+			}else if (num > 0){
 				System.out.println("És més gran que "+num);
 			}
 		}
