@@ -4,17 +4,14 @@ public class TrobaMaxim {
 	System.out.println("Introdueix un valor");
 	int valor=Integer.parseInt(Entrada.readLine());
 	int maxim=0;
-	maxim=valor;
-	while (valor >0){
-		System.out.println("Introdueix un valor");
-		valor=Integer.parseInt(Entrada.readLine());
-		if (valor>maxim){
-			maxim=valor;
+		while(valor>0){
+			System.out.println("Introdueix un valor");
+			valor=Integer.parseInt(Entrada.readLine());
+			//valor=maxim;
+			if (valor>maxim){
+				maxim=valor;
+			}
 		}
-	if (valor<=0){
-        System.out.println("El màxim és "+"0");
-	}
 	System.out.println("El màxim és "+maxim);
-	}
 	}
 }
