@@ -15,7 +15,7 @@ public class Endivina{
 			}else if (num>1){
 				System.out.println("És més gran que "+num);
 			}
-		System.out.println("Has encertat!");
 		}
+		System.out.println("Has encertat!");
 	}
 }
