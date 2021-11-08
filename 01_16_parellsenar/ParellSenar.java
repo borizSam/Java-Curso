@@ -9,10 +9,10 @@ public class ParellSenar {
        	int operacion = numero % 2;
 
         if (operacion == 0 ){
-            System.out.println("El número " + operacion + " és parell");
+            System.out.println("El número " + numero + " és parell");
 
         } else {
-            System.out.println("El número " + operacion + " és senar");
+            System.out.println("El número " + numero + " és senar");
         }
     }
 }
