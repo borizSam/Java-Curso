@@ -8,9 +8,6 @@ public class EntersIniciFi{
 	System.out.println("Salt?");
 	int salto=Integer.parseInt(Entrada.readLine());
 	int contador=0;
-		while (final1<contador){
-			contador=contador+salto;
-			System.out.println(contador);
-		}
+	
 	}
 }
