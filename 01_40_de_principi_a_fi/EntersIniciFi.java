@@ -4,10 +4,10 @@ public class EntersIniciFi{
 	System.out.println("Valor inicial?");
 	int inicial=Integer.parseInt(Entrada.readLine());
 	System.out.println("Valor final?");
-	int finas=Integer.parseInt(Entrada.readLine());
+	int final1=Integer.parseInt(Entrada.readLine());
 	System.out.println("Salt?");
 	int salto=Integer.parseInt(Entrada.readLine());
 	int contador=0;
-
+	
 	}
 }
