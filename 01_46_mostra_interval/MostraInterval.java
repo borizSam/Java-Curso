@@ -11,6 +11,8 @@ public class MostraInterval {
 	}else if(vinicial>vfinal){
 		for (vinicial=vinicial; vinicial>=vfinal; vinicial=vinicial-1)
 			System.out.println(vinicial);
+	}else{
+		System.out.println(vinicial);
 	}
 	}
 }
