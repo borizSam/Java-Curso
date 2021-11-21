@@ -10,6 +10,8 @@ public class QuadratNombres{
 			}
 		System.out.println();
 		}
+	}else{
+		System.out.println("Valor inadequat");
 	}	
 	}
 }
