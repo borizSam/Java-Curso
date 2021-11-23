@@ -5,9 +5,9 @@ public class TriangleNombres{
 	int num=Integer.parseInt(Entrada.readLine());
 	if(num >0){
 		for (int linea=1; linea<=num; linea++){
-			for(int colum=1; colum<=linea; colum++){
+			for(int colum=linea; colum>=1; colum--){
 				int a=linea-colum;
-				System.out.print(" "+a);
+				System.out.print(" "+colum);
 			}
 			System.out.println();
 		}
