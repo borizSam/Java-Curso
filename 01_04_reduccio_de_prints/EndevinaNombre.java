@@ -24,7 +24,7 @@
             numero = numero - numeroPensat;
             // compara el resultat
 	    System.out.println("El número pensat és " + numeroPensat);
-	    System.out.println("Quan el multipliques per 3 obtens" + numero);
+	    System.out.println("Quan el multipliques per 3 obtens " + numero);
 	    System.out.println("Quan li sumer 6 arriba a " + numero);
 	    System.out.println("Un cop dividit per 3 queda " + numero);
 	    System.out.println("Finalmente, en restar-li el valor inicial, queda " + numero);
