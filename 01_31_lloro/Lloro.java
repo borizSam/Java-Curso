@@ -5,9 +5,8 @@ public class Lloro {
 	String space= Entrada.readLine();
 	
 		while (!space.isBlank() && !space.isEmpty()){
-
-			System.out.println("El lloro espera paraula:");
 			System.out.println("El lloro repeteix: "+space);
+			System.out.println("El lloro espera paraula:");
 			space =Entrada.readLine();
 			//System.out.println("El lloro repeteix: "+space);
 
