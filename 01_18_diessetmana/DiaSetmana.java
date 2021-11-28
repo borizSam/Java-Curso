@@ -1,3 +1,4 @@
+/*Dias de la semana segun los nuemros*/
 public class DiaSetmana {
 	public static void main (String[] args){
 		int dia = Integer.parseInt(args[0]);
