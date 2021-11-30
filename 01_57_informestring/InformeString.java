@@ -8,6 +8,6 @@ public class InformeString{
 	System.out.println("Número positiu?");
 	int numero=Integer.parseInt(Entrada.readLine());
 	System.out.println("\"" + principal+ "\"" +".length(): "+principal.length());
-	System.out.println("\"" + principal+ "\"" +".startsWith("+"\""+secuntario+"\""+"): "+secuntario.startsWith(secuntario));
+	System.out.println("\"" + principal+ "\"" +".startsWith("+"\""+secuntario+"\""+"): "+secuntario.startsWith("4"));
 	}
 }
