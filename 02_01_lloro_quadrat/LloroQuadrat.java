@@ -9,29 +9,49 @@ public class LloroQuadrat{
 	System.out.println("El lloro espera paraula:");
 	String palabra=Entrada.readLine();
 		while(!palabra.isBlank() && !palabra.isEmpty()){
-		/*condicion para dibujar un cuadrado*/
-			if (palabra.equals("dibuixa quadrat")){
-				for (int linia=1; linia <= 5; linia++) {
-        				for (int columna=1; columna <= 5; columna++) {
-            					System.out.print(" X");
-        				}
+		if (palabra.equals("dibuixa quadrat")){
+			for (int linia=1; linia <= 5; linia++) {
+        			for (int columna=1; columna <= 5; columna++) {
+            				System.out.print(" X");
+        			}
+        			System.out.println();
+    				}	
+		}
+		if (palabra.equals("dibuixa rectangle")){
+			for (int linia=1; linia <= 5; linia++) {
+        			for (int columna=1; columna <= 10; columna++) {
+            				System.out.print(" X");
+        			}
+        			System.out.println();
+    				}
+		}
+			System.out.println("El lloro espera paraula:");
+			palabra=Entrada.readLine();
+			System.out.println("El lloro repeteix: "+palabra);
+			//System.out.println("El lloro espera paraula:");
+			//palabra=Entrada.readLine();
+		}
+		System.out.println("Adéu");	
+	}
+	public static void cuadrado(String palabra){
+		if (palabra.equals("dibuixa quadrat")){
+			for (int linia=1; linia <= 5; linia++) {
+        			for (int columna=1; columna <= 5; columna++) {
+            				System.out.print(" X");
+        			}
         			System.out.println();
     				}	
 			}
-			/*condicion para dibujar el rectangulo*/
-			if (palabra.equals("dibuixa rectangle")){
-			    for (int linia=1; linia <= 5; linia++) {
+	}
+	public static void rectangle(String palabra){
+	/*condicion para dibujar el rectangulo*/
+		if (palabra.equals("dibuixa rectangle")){
+			for (int linia=1; linia <= 5; linia++) {
         			for (int columna=1; columna <= 10; columna++) {
             				System.out.print(" X");
         			}
         			System.out.println();
     				}
 			}
-			System.out.println("El lloro repeteix: "+palabra);
-			System.out.println("El lloro espera paraula:");
-			palabra=Entrada.readLine();
-		}
-		System.out.println("Adéu");	
 	}
-	
 }
