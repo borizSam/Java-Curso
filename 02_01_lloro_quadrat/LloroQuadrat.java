@@ -7,17 +7,13 @@ public class LloroQuadrat{
 		//System.out.println("El lloro repeteix: "+palabra);
 			if (palabra.equals("dibuixa quadrat")){
 				cuadrado();
-			}
-			if (palabra.equals("dibuixa rectangle")){
+			}else if(palabra.equals("dibuixa rectangle")){
 				rectangle();
-			}
-			//System.out.println("El lloro espera paraula:");
-			//palabra=Entrada.readLine();
+			}else{
 			System.out.println("El lloro repeteix: "+palabra);
 			System.out.println("El lloro espera paraula:");
 			palabra=Entrada.readLine();
-			//System.out.println("El lloro espera paraula:");
-			//palabra=Entrada.readLine();
+			}
 		}
 		System.out.println("Adéu");
 	}
