@@ -13,6 +13,7 @@ public class InformeString{
 	System.out.println("\"" + principal+ "\"" +".equals("+"\""+secuntario+"\""+"): "+secuntario.equals("4"));
 	System.out.println("\"" + principal+ "\"" +".equalsIgnoreCase("+"\""+secuntario+"\""+"): "+secuntario.equalsIgnoreCase(secuntario));
 	System.out.println("\"" + principal+ "\"" +".isBlank(): "+secuntario.isBlank());
+	System.out.println("\"" + principal+ "\"" +".isEmpty(): "+secuntario.isEmpty());
 	System.out.println("\"" + principal+ "\"" +".charAt"+"("+numero+"): "+secuntario.charAt(numero));
 	System.out.println("\"" + principal+ "\"" +".concat("+"\""+secuntario+"\""+"): "+principal.concat(secuntario));
 	System.out.println("\"" + principal+ "\"" +".repeat"+"("+numero+"): "+principal.repeat(numero));
