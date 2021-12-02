@@ -4,7 +4,7 @@ public class LloroQuadrat{
 	System.out.println("El lloro espera paraula:");
 	String palabra=Entrada.readLine();
 		while(!palabra.isBlank() && !palabra.isEmpty()){
-		System.out.println("El lloro repeteix: "+palabra);
+		//System.out.println("El lloro repeteix: "+palabra);
 			if (palabra.equals("dibuixa quadrat")){
 				cuadrado();
 			}
@@ -13,7 +13,7 @@ public class LloroQuadrat{
 			}
 			System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
-			//System.out.println("El lloro repeteix: "+palabra);
+			System.out.println("El lloro repeteix: "+palabra);
 			palabra=Entrada.readLine();
 			System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
