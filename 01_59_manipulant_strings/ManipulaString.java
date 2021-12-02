@@ -37,11 +37,12 @@ public class ManipulaString {
         // minúscules de manera que la primera sigui majúscules i la resta en
         // minúscules.  (ex. si la paraula és «Nekane» mostrarà «Enek»)
         // XXX TODO: afegeix aquí les línies que facin falta
-        String compo=ultima.charAt(ultima.length()-1)+paraula.substring(0,3);
-	String primeral=compo.substring(0,1);
+        //String compo=ultima.charAt(ultima.length()-1);
+	String primeral=paraula.substring(0,1);
 	String mayus=primeral.toUpperCase();
 	String minus=paraula.substring(0,3);
 	String minu=minus.toLowerCase();
+	System.out.println(primeral);
         System.out.println("La composició de quatre corregint majúscules és "+"\""+mayus+minu+"\"");
         //System.out.println("La composició de quatre corregint majúscules és "+"\""+ultima.charAt(ultima.length()-1)+paraula.substring(0,3)+"\"");
     }
