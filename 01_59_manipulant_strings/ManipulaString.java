@@ -42,7 +42,7 @@ public class ManipulaString {
 	String mayus=compo.toUpperCase();
 	String minus=paraula.substring(0,3);
 	String minu=minus.toLowerCase();
-	System.out.println(compo);
+	//System.out.println(compo);
         System.out.println("La composició de quatre corregint majúscules és "+"\""+mayus+minu+"\"");
         //System.out.println("La composició de quatre corregint majúscules és "+"\""+ultima.charAt(ultima.length()-1)+paraula.substring(0,3)+"\"");
     }
