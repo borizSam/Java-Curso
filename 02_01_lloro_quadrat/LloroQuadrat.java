@@ -17,8 +17,8 @@ public class LloroQuadrat{
 					System.out.println("El lloro espera paraula:");
 					palabra=Entrada.readLine();
 				}
-			System.out.println("Adéu");
 	}
+	System.out.println("Adéu");
 }
 	public static void cuadrado(){
 			for (int linia=1; linia <= 5; linia++) {
