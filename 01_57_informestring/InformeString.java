@@ -9,7 +9,7 @@ public class InformeString{
 	int numero=Integer.parseInt(Entrada.readLine());
 	System.out.println("\"" + principal+ "\"" +".length(): "+principal.length());
 	System.out.println("\"" + principal+ "\"" +".startsWith("+"\""+secuntario+"\""+"): "+secuntario.startsWith("4"));
-	System.out.println("\"" + principal+ "\"" +".endsWith("+"\""+secuntario+"\""+"): "+secuntario.endsWith(secuntario));
+	System.out.println("\"" + principal+ "\"" +".endsWith("+"\""+secuntario+"\""+"): "+principal.endsWith(secuntario));
 	System.out.println("\"" + principal+ "\"" +".equals("+"\""+secuntario+"\""+"): "+secuntario.equals("4"));
 	System.out.println("\"" + principal+ "\"" +".equalsIgnoreCase("+"\""+secuntario+"\""+"): "+secuntario.equalsIgnoreCase(secuntario));
 	System.out.println("\"" + principal+ "\"" +".isBlank(): "+secuntario.isBlank());
