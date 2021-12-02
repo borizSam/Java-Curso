@@ -5,21 +5,22 @@ public class LloroQuadrat{
 	String palabra=Entrada.readLine();
 		while(!palabra.isBlank() && !palabra.isEmpty()){
 		//System.out.println("El lloro repeteix: "+palabra);
-			if (palabra.equals("dibuixa quadrat")){
-				cuadrado();
-			System.out.println("El lloro espera paraula:");
-			palabra=Entrada.readLine();
-			}if(palabra.equals("dibuixa rectangle")){
-				rectangle();
-			System.out.println("El lloro espera paraula:");
-			palabra=Entrada.readLine();
-			}
+			if (!palabra.equals("dibuixa quadrat") && !palabra.equals("dibuixa rectangle")){
 			System.out.println("El lloro repeteix: "+palabra);
 			System.out.println("El lloro espera paraula:");
 			palabra=Entrada.readLine();
+				}else if(palabra.equals("dibuixa rectangle")){
+					rectangle();
+					System.out.println("El lloro espera paraula:");
+					palabra=Entrada.readLine();
+				}else if (palabra.equals("dibuixa quadrat")){
+					cuadrado();
+					System.out.println("El lloro espera paraula:");
+					palabra=Entrada.readLine();
+				}
 			}
 			System.out.println("Adéu");
-		}
+	}
 	public static void cuadrado(){
 			for (int linia=1; linia <= 5; linia++) {
         			for (int columna=1; columna <= 5; columna++) {
