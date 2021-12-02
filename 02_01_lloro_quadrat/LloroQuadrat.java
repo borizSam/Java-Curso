@@ -4,11 +4,12 @@ public class LloroQuadrat{
 	System.out.println("El lloro espera paraula:");
 	String palabra=Entrada.readLine();
 		while(!palabra.isBlank() && !palabra.isEmpty()){
+		System.out.println("El lloro repeteix: "+palabra);
 			if (palabra.equals("dibuixa quadrat")){
 				cuadrado();
 			}
 			if (palabra.equals("dibuixa rectangle")){
-			//rectangle();
+				rectangle();
 			}
 			System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
@@ -17,10 +18,9 @@ public class LloroQuadrat{
 			System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
 		}
-		System.out.println("Adéu");	
+		System.out.println("Adéu");
 	}
 	public static void cuadrado(){
-		
 			for (int linia=1; linia <= 5; linia++) {
         			for (int columna=1; columna <= 5; columna++) {
             				System.out.print(" X");
@@ -28,16 +28,13 @@ public class LloroQuadrat{
         			System.out.println();
     				}	
 			}
-	}
-	/*public static void rectangle(){
+	public static void rectangle(){
 	/*condicion para dibujar el rectangulo*/
-		//if (palabra.equals("dibuixa rectangle")){
-		//	for (int linia=1; linia <= 5; linia++) {
-        	//		for (int columna=1; columna <= 10; columna++) {
-          //  				System.out.print(" X");
-        //			}
-        //			System.out.println();
-    	//			}
-	//		}
-	//}
-
+			for (int linia=1; linia <= 5; linia++) {
+        			for (int columna=1; columna <= 10; columna++) {
+          			System.out.print(" X");
+        			}
+        			System.out.println();
+    				}
+	}
+}
