@@ -11,11 +11,12 @@ public class LloroQuadrat{
 			if (palabra.equals("dibuixa rectangle")){
 				rectangle();
 			}
-			System.out.println("El lloro espera paraula:");
+			//System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
 			System.out.println("El lloro repeteix: "+palabra);
-			palabra=Entrada.readLine();
 			System.out.println("El lloro espera paraula:");
+			palabra=Entrada.readLine();
+			//System.out.println("El lloro espera paraula:");
 			//palabra=Entrada.readLine();
 		}
 		System.out.println("Adéu");
