@@ -4,19 +4,19 @@ public class LloroQuadrat{
 	System.out.println("El lloro espera paraula:");
 	String palabra=Entrada.readLine();
 		while(!palabra.isBlank() && !palabra.isEmpty()){
-			System.out.println("El lloro repeteix: "+palabra);
-			System.out.println("El lloro espera paraula:");
-			palabra=Entrada.readLine();
 			if (!palabra.equals("dibuixa rectangle") && !palabra.equals("dibuixa quadrat")){
-				}else if(palabra.equals("dibuixa rectangle")){
-					rectangle();
-					System.out.println("El lloro espera paraula:");
-					palabra=Entrada.readLine();
-				}else if (palabra.equals("dibuixa quadrat")){
-					cuadrado();
-					System.out.println("El lloro espera paraula:");
-					palabra=Entrada.readLine();
-				}
+				System.out.println("El lloro repeteix: "+palabra);
+				System.out.println("El lloro espera paraula:");
+				palabra=Entrada.readLine();
+			}else if(palabra.equals("dibuixa rectangle")){
+				rectangle();
+				System.out.println("El lloro espera paraula:");
+				palabra=Entrada.readLine();
+			}else if (palabra.equals("dibuixa quadrat")){
+				cuadrado();
+				System.out.println("El lloro espera paraula:");
+				palabra=Entrada.readLine();
+			}
 	}
 	System.out.println("Adéu");
 }
