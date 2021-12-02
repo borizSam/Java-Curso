@@ -11,7 +11,7 @@ public class InformeString{
 	System.out.println("\"" + principal+ "\"" +".startsWith("+"\""+secuntario+"\""+"): "+secuntario.startsWith("4"));
 	System.out.println("\"" + principal+ "\"" +".endsWith("+"\""+secuntario+"\""+"): "+principal.endsWith(secuntario));
 	System.out.println("\"" + principal+ "\"" +".equals("+"\""+secuntario+"\""+"): "+secuntario.equals("4"));
-	System.out.println("\"" + principal+ "\"" +".equalsIgnoreCase("+"\""+secuntario+"\""+"): "+secuntario.equalsIgnoreCase(secuntario));
+	System.out.println("\"" + principal+ "\"" +".equalsIgnoreCase("+"\""+secuntario+"\""+"): "+principal.equalsIgnoreCase(secuntario));
 	System.out.println("\"" + principal+ "\"" +".isBlank(): "+secuntario.isBlank());
 	System.out.println("\"" + principal+ "\"" +".isEmpty(): "+secuntario.isEmpty());
 	System.out.println("\"" + principal+ "\"" +".charAt"+"("+numero+"): "+secuntario.charAt(numero));
