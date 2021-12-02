@@ -31,7 +31,7 @@ public class ManipulaString {
         // XXX TODO: afegeix aquí les línies que facin falta
      	String ultima=paraula.substring(0,4);
      	//System.out.println(ultima.charAt(ultima.length()-1)+paraula.substring(0,3));
-        System.out.println("La composició de quatre primeres és "+"\""+paraula.charAt(ultima.length()-1)+paraula.substring(0,3)+"\"");
+        System.out.println("La composició de quatre primeres és "+"\""+paraula.charAt(paraula.length()-1)+paraula.substring(0,3)+"\"");
 	//System.out.println("La composició de quatre és " + "\""+paraula.replace(ultima,paraula)+"\"");
         // Com en el cas anterior però ara corregint les majúscules i
         // minúscules de manera que la primera sigui majúscules i la resta en
