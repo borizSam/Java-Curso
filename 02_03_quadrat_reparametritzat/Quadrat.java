@@ -9,7 +9,7 @@ public class Quadrat{
 	public static void dibuixaQuadrat(int costat, char caracter){
 		for (int filas=1; filas<=costat; filas++){
 			for (int colu=1; colu<=costat; colu++){
-				System.out.print(""+caracter);
+				System.out.print(" "+caracter);
 			}
 			System.out.println();
 		}	
