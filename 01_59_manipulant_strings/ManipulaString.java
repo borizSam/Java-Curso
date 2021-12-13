@@ -7,9 +7,15 @@ public class ManipulaString {
         String paraula = Entrada.readLine();
 
         // Mostra la longitud de la paraula (quantes lletres conté)
+        if (paraula.length()-1==0){
         System.out.println("La longitud és " + paraula.length());
+        System.out.println("La darrera lletra és " + "'"+paraula.charAt(paraula.length()-1)+"'");
+        System.out.println("La paraula en majúscules és " + "\""+paraula.toUpperCase()+"\"");
+        
+        }else{
         // Mostra la segona lletra de la paraula
         // XXX TODO: afegeix aquí les línies que facin falta
+        System.out.println("La longitud és " + paraula.length());
 	System.out.println("La segona lletra és " + "'"+paraula.charAt(1)+"'");
         // Mostra la darrera lletra de la paraula
         // XXX TODO: afegeix aquí les línies que facin falta
@@ -45,5 +51,6 @@ public class ManipulaString {
 	//System.out.println(compo);
         System.out.println("La composició de quatre corregint majúscules és "+"\""+mayus+minu+"\"");
         //System.out.println("La composició de quatre corregint majúscules és "+"\""+ultima.charAt(ultima.length()-1)+paraula.substring(0,3)+"\"");
-    }
+    	}
+}
 }
